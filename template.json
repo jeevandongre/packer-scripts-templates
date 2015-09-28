@@ -134,12 +134,12 @@
       "type": "amazon-ebs",
       "access_key": "AWS_ACCESS_KEY",
       "secret_key": "AWS_SECRET_KEY",
-      "region": "ap-southeast-1",
-      "source_ami": "ami-96f1c1c4",
-      "instance_type": "m3.medium",
-      "security_group_id":"sg-81e7c6d4",
-      "ssh_username": "ubuntu",
-      "ami_name": "nodejs",
+      "region": "use the secific region",
+      "source_ami": "ami-id",
+      "instance_type": "instance-type",
+      "security_group_id":"security-group-id",
+      "ssh_username": "username",
+      "ami_name": "name-of-the-ami",
       "tags": {
           "OS_Version": "Ubuntu",
           "Release": "Latest"
