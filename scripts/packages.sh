@@ -5,7 +5,7 @@ sudo apt-get -y install linux-headers-$(uname -r)
 sudo apt-get update --fix-missing
 
 
-sudo apt-get -y install build-essential zlib1g-dev libreadline-dev libssl-dev g++ bundler curl git htop  mysql-client-5.6 libcurl3 libcurl3-gnutls libcurl4-openssl-dev liblzma-dev zlib1g-dev libmysqlclient-dev libsqlite3-dev nodejs nodejs-legacy npm debconf-utils
+sudo apt-get -y install build-essential zlib1g-dev libreadline-dev libssl-dev g++ bundler curl git htop  mysql-client-5.6 libcurl3 libcurl3-gnutls libcurl4-openssl-dev liblzma-dev zlib1g-dev libmysqlclient-dev libsqlite3-dev nodejs nodejs-legacy npm debconf-utils nginx
 
 sudo -u ubuntu  wget 'http://s3-ap-southeast-1.amazonaws.com/st-back-up/ruby-2.0.0-p247.tar.gz'
 echo "Downloading ruby from s3..... \n  Please wait ......"
