@@ -10,7 +10,9 @@ List of few dependencies install
 * g++
 * build-essentials
 * npm
-*nodejs
+* nodejs
+* curl
+* all other development libraries
 
 Using packer :
 
